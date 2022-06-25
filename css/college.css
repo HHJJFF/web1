@@ -1,0 +1,90 @@
+/*大学经历页面*/
+@font-face {
+	font-family: "Emblema One";
+	src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"), 
+	     url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"); 
+}
+/* body {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       small;
+} */
+h1, h2 {
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+  
+}
+h1 {
+  font-family:     "Emblema One", sans-serif;
+  font-size:       300%;
+  margin-left: 100px;
+
+}
+h2 {
+  font-size:       130%;
+  font-weight:     normal;
+  margin-left: 100px;
+}
+p{
+  margin-left: 100px;
+  font-size: 120%;
+}
+blockquote {
+  font-style:      italic;
+}
+video{
+  margin-left:      100px;
+  margin-right:     100px;
+}
+table {
+  margin-left:      100px;
+  margin-right:     100px;
+  border:           thin solid black;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+
+table table{
+  margin-left:      20px;
+  margin-right:     20px;
+  border:           thin solid black;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+table table th {
+  background-color: white;
+}
+tr{
+  font-size: 120%;
+}
+td, th {
+  border:           thin dotted gray;
+  padding:          5px;
+}
+
+th {
+  background-color: #cc6600;
+}
+
+
+.cellcolor {
+  background-color: #fcba7a;
+}
+
+
+
+
+
+.center {
+  text-align:       center;
+}
+
+.right {
+  text-align:       right;
+}
+
+li {
+  /* list-style-image: url(images/backpack.gif); */
+  padding-top:      5px;
+  margin-left:      10px;
+}
+

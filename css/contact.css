@@ -1,0 +1,110 @@
+/*联系方式页面*/
+.content3 {
+    width: 300px;
+    height: 550px;
+    border: 3px dashed #3e3e3e;
+    border-radius: 10px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    float: left;
+  }
+  .pic6 {
+    width: 230px;
+    height: 400px;
+    margin: 20px auto;
+  }
+  .p5 {
+    line-height: 1.6em;
+    /* font-style: italic; */
+    font-size: 20px;
+    text-align: center;
+    font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+    color: black;
+    border: 1px dotted #444444;
+    width: 220px;
+    padding: 10px 0px 10px 0px;
+    margin: 40px auto 25px auto;
+    background: #AFEEEE;
+    border-radius: 5px;
+    font-size: 12;
+  }
+  .content4 {
+    width: 300px;
+    height: 550px;
+    border: 3px dashed #3e3e3e;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    float: left;
+  }
+  .text_cont {
+    height: 109.21px;
+    line-height: 1.5em;
+    font-family: "Microsoft Yahei";
+    padding: 11px 10px 16px 10px;
+  }
+  .box1 {
+    border: 2px solid #444444;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 800px;
+    height: 280px;
+    border-radius: 3px;
+    margin: 0 auto;
+    float: left;
+  }
+  .h1-5 {
+    margin: 0;
+  }
+  div#text_cont2 {
+    height: 113.41px;
+    line-height: 1.5em;
+    font-family: "Microsoft Yahei";
+    padding: 11px 24px 16px 37px;
+  }
+  .box2 {
+    border: 2px solid #444444;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 800px;
+    height: 150px;
+    border-radius: 3px;
+    margin: 0 auto;
+    float: left;
+  }
+  
+  div#but {
+    text-align: center;
+    float: right;
+    position: relative;
+    top : 350px;
+    right: 500px;
+  }
+  #button {
+    color: #0070a3;
+    font-size: 13.2px;
+    font-family: "Lucida Grande";
+    padding: 5.28px 13.2px;
+    border: 1px solid #444444;
+    font-weight: bold;
+    background: #d7ebf9 url(../images/index_06.jpg) 50% 50% repeat-x;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  #button:hover{
+    background-color: #444444;
+  }
+  #a1 {
+    text-decoration: none;
+  }
+  #a1:hover {
+    background-color: #444444;
+  }

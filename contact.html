@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="css/default.css" type="text/css" />
+    <link rel="stylesheet" href="css/contact.css" type="text/css" />
+  </head>
+  <body>
+    <div class="topall">
+      <div class="top">
+        <marquee direction="left">郝见菲的个人blog</marquee>
+       </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">个人首页</a></li>
+        <li><a href="hometown.html">家乡籍贯</a></li>
+        <li><a href="college.html">大学经历</a></li>
+        <li class="li2"><a href="contact.html">联系方式</a></li>
+      </ul>
+    </nav>
+    <div class="inner">
+      <div class="content3">
+        <div class="pic6">
+          <img src="images/QQ.jpg" alt="QQ" class="pic6" />
+        </div>
+        <p class="p5">QQ:1527685212</p>
+      </div>
+      <div class="content4">
+        <div class="pic6">
+          <img src="images/微信.jpg" alt="微信" class="pic6" />
+        </div>
+        <p class="p5">微信:as1527685</p>
+      </div>
+      <div class="box1">
+        <h1 class="h1-5">你是否愿意成为我的朋友？</h1>
+        <!-- 添加表单 -->
+        <div id="text_cont">
+          <ul>    
+            <li id="radio">
+              <input type="radio" name="beantype" value="whole" />
+              愿意
+              <br />
+            </li>
+            <li id="radio">
+              <input type="radio" name="beantype" value="ground" />
+              不愿意<br />
+            </li> 
+          </ul>
+
+        </div>
+        <h5>如果你愿意的话，请填写以下你的信息，联系我吧~</h5>
+        <fieldset>
+          <legend>你的信息</legend>
+          <div class="tablerow">
+              <label for="name">名字:</label>
+              <input type="text" id="name" name="name" value="" placeholder="What's your name?">
+          </div>
+         
+          <div class="tablerow">
+              <label for="sex">性别:</label>
+              <input type="radio" id="male" name="sex">
+              <label for="male">男</label><br>
+              <input type="radio" id="female" name="sex">
+              <label for="female">女</label>
+          </div>
+          <div class="tablerow">
+              <label for="birth">生日:</label>
+              <input type="date" name="date">
+          </div>
+          <div class="tablerow">
+              <label for="phone">电话:</label>
+              <input type="tel" id="phone" name="phone" value placeholder="xxx-xxx-xxxx" required>
+          </div>
+      </fieldset>
+      </div>
+      <div class="box2">
+        <h1 class="h1-5">可以写下你想对我说的话：</h1>
+        <div id="text_cont2">
+            <!-- 添加输入框 -->
+            <p class="p1">
+              <textarea name="comments"></textarea>
+            </p>
+          </div>
+      </div>
+      <div id="but">
+        <a id="a1" href=""><input type="submit" value="提交" id="button" /></a>
+      </div>
+
+    </div>
+    <footer>
+      <ul>
+        <li><a href="index.html">个人首页</a></li>
+        <li><a href="hometown.html">家乡籍贯</a></li>
+        <li><a href="college.html">大学经历</a></li>
+        <li class="li2"><a href="contact.html">联系方式</a></li>
+      </ul>
+      <br />
+      <p>郝见菲的个人blog</p>
+    </footer>
+  </body>
+</html>
